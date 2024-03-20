@@ -3,4 +3,4 @@ scrape_configs:
     metrics_path: /metrics
     static_configs:
       - targets:
-        - 0.0.0.0:5000
+        - web:5000
