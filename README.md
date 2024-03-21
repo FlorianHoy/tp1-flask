@@ -14,4 +14,9 @@ Faire `cd flask_docker` puis `docker-compose up -d`.
 
 
 ## Explication
+Le fichier prometheus.yml sert à prendre les metrics du service web au port 5000.
+Le fichier datasource.yml sert à mettre le service promotheus port 9090 en tant que source de donnée.
+
+
+## Accessibilité
 Vous aurez **l'application** sur le port **5000**, **prometheus** sur le port **9090** et **grafana** sur le port **3000**.
