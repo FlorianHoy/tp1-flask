@@ -9,4 +9,9 @@ Il y a également un conteneur prometheus et un conteneur grafana pour le monito
 
 
 ## Installation
-Faire **git clone
+Faire **git clone https://gitlab.com/simple-python-project/simple-python-project.git** pour installer le projet.
+Faire **cd flask_docker** puis **docker-compose up -d**.
+
+
+## Explication
+Vous aurez **l'application** sur le port **5000**, **prometheus** sur le port **9090** et **grafana** sur le port **3000**.
