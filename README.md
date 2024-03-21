@@ -9,8 +9,8 @@ Il y a également un conteneur prometheus et un conteneur grafana pour le monito
 
 
 ## Installation
-Faire **git clone https://gitlab.com/simple-python-project/simple-python-project.git** pour installer le projet.
-Faire **cd flask_docker** puis **docker-compose up -d**.
+Faire `git clone https://gitlab.com/simple-python-project/simple-python-project.git` pour installer le projet.
+Faire `cd flask_docker` puis `docker-compose up -d`.
 
 
 ## Explication
