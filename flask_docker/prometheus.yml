@@ -1,8 +1,6 @@
-apiVersion: 1
-
-datasources:
-  - name: Prometheus
-    type: prometheus
-    access: proxy
-    isDefault: true
-    url: http://prometheus:9090
+scrape_configs:
+  - job_name: view_buy
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+        - web:5000
