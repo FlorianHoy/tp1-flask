@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: tukaari/flask-repository:flask-docker
+    image: .
     networks:
           my-network:
     ports:
