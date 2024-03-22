@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: .
+    build: .
     networks:
           my-network:
     ports:
@@ -17,7 +17,7 @@ services:
   grafana:
     image: grafana/grafana:7.5.2
     volumes:
-      - ./datasource.yaml:/etc/grafana/provisioning/datasources/datasource.yaml
+      - ./datasource.yml:/etc/grafana/provisioning/datasources/datasource.yml
     networks:
       my-network:
     ports:
